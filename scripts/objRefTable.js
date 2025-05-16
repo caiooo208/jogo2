@@ -15,7 +15,9 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.System.Acts.RestartLayout,
 		C3.Plugins.System.Acts.SetVar,
 		C3.Plugins.System.Cnds.EveryTick,
-		C3.Plugins.Text.Acts.SetText
+		C3.Plugins.Text.Acts.SetText,
+		C3.Plugins.System.Cnds.Compare,
+		C3.Plugins.System.Acts.GoToLayout
 	];
 };
 self.C3_JsPropNameTable = [
@@ -32,6 +34,10 @@ self.C3_JsPropNameTable = [
 	{Sprite5: 0},
 	{Sprite6: 0},
 	{Texto: 0},
+	{Sprite7: 0},
+	{Sprite8: 0},
+	{Texto2: 0},
+	{Sprite9: 0},
 	{MOEDAS: 0}
 ];
 
@@ -42,5 +48,9 @@ self.InstanceType = {
 	Sprite4: class extends self.ISpriteInstance {},
 	Sprite5: class extends self.ISpriteInstance {},
 	Sprite6: class extends self.ISpriteInstance {},
-	Texto: class extends self.ITextInstance {}
+	Texto: class extends self.ITextInstance {},
+	Sprite7: class extends self.ISpriteInstance {},
+	Sprite8: class extends self.ISpriteInstance {},
+	Texto2: class extends self.ITextInstance {},
+	Sprite9: class extends self.ISpriteInstance {}
 }
